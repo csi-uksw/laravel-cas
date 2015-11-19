@@ -1,0 +1,26 @@
+{
+  "name": "csi-uksw/laravel-cas",
+  "description": "UKSW CAS auth module for Laravel 5.1",
+  "license": "MIT",
+  "keywords": ["CSI", "UKSW", "CAS"],
+  "authors": [
+    {
+      "name": "Paweł Cieszkowski",
+      "email": "p.cieszkowski@uksw.edu.pl",
+      "homepage": "http://csi.uksw.edu.pl",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CSI_UKSW\\Laravel\\CAS\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "5.*",
+    "jasig/phpcas": "1.3.4",
+    "vlucas/phpdotenv": "~1.0"
+  },
+  "minimum-stability": "stable"
+}
