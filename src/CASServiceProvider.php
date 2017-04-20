@@ -44,7 +44,7 @@ class CASServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('cas', function () {
+        $this->app->singleton('cas', function () {
             return new CASManager();
         });
     }
