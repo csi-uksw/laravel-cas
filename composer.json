@@ -19,8 +19,7 @@
   "require": {
     "php": ">=5.5.9",
     "illuminate/support": "5.*",
-    "jasig/phpcas": "1.3.4",
-    "vlucas/phpdotenv": "~1.0"
+    "jasig/phpcas": "1.3.5"
   },
   "minimum-stability": "stable"
 }
